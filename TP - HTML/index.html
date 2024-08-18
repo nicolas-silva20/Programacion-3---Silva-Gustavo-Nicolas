@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        tfoot{
+            font-weight: bold;
+            background-color: gray;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div>
+        <h1> 1. Estructura Básica del Documento HTML</h1>
+        <p> Este documento HTML tiene una estructura basica que incluye la declaración DOCTYPE, etiquetas de metadatos y un título.</p>
+    </div>
+    <div>
+        <h1> 2. Encabezados y Propiedades del Texto</h1>
+        <h2> <b> Esto es un texto en negrita </b> </h2>
+        <h3> <em> Esto es un texto en cursiva </em> </h3>
+        <h4> <u> Esto es un texto subrayado </u> </h4>
+        <h5> <b> Esto es un texto en negrita </b> </h5>
+        <h6> <em> Esto es un texto en cursiva </em> </h6>
+    </div>
+
+    <div>
+        <h1> 3. Divisiones y Agrupación de Contenido</h1>
+        <div>
+            <h2>Seccion 1</h2>
+            <p> Contenido de la primera seccion agurpada en un div.</p>
+        </div>
+        <div>
+            <h2>Seccion 2</h2>
+            <p> Contenido de la segunda seccion agurpada en un div.</p>
+        </div>
+    </div>
+
+    <div>
+        <h1> 4. Enlaces y Listas</h1>
+        Visita nuestro <a href="https://www.google.com"> sitio web</a> para mas informacion
+    </div>
+
+    <div>
+        <p> Enlaces internos</p>
+        <ul>
+            <li> <a href="https://www.google.com"> Ir a Estructura</a> </li>
+            <li> <a href="https://www.google.com"> Ir a Multimedia</a> </li>
+            <li> <a href="https://www.google.com"> Ir a Formulario</a> </li>
+        </ul>
+
+        <p> Lista desordenada: </p>
+        <ul>
+            <li> Primer item de una lista desordenada </li>
+            <li> Segundo item de una lista desordenada </li>
+        </ul>
+
+        <p> Lista ordenada</p>
+        <ol>
+            <li> Primer item de una lista ordenada </li>
+            <li> Segundo item de una lista ordenada </li>
+        </ol>
+    </div>
+
+    <div>
+        <h1> 5. Elementos Multimedia</h1>
+            <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" width="400px" height="200px" alt="Es una imagen">
+            <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" width="400px" height="200px" controls> </video>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    </div>
+
+    <div>
+        <h1> 6. Tablas</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                    <th>Columna 3</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>Fila 1, Celda 1</td>
+                    <td>Fila 1, Celda 2</td>
+                    <td>Fila 1, Celda 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 2, Celda 1</td>
+                    <td>Fila 2, Celda 2</td>
+                    <td>Fila 2, Celda 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 3, Celda 1</td>
+                    <td>Fila 3, Celda 2</td>
+                    <td>Fila 3, Celda 3</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td>Total 1</td>
+                <td>Total 2</td>
+                <td>Total 3</td>
+            </tr>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <h1>7. Formulario</h1>
+        <form>
+            <label>Email:</label>
+            <input type="email" placeholder="example@gmail.com"/>
+            
+            <label>Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre">
+
+            <label>Apellido:</label>
+            <input type="text" placeholder="Ingrese su apellido">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div>
+        <h1>8. Semantica</h1>
+
+        <header>
+            <h2>Encabezado Principal</h2>
+        </header>
+        
+        <main>
+            <section>
+                <ul>
+                    <li> <a href="https://www.google.com">Estructura</a> </li>
+                    <li> <a href="https://www.google.com">Multimedia</a> </li>
+                    <li> <a href="https://www.google.com">Formulario</a> </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>1. Estructura Básica del Documento HTML</h3>
+                <p>Descripción de la estructura</p>
+                <p>Informacion complementaria</p>
+            </section>
+            
+            
+        </main>
+        
+        <footer>
+            <p>2024 Trabajo Práctico de HTML</p>
+        </footer>
+        
+    </div>
+</body>
+</html>
